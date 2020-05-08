@@ -43,9 +43,22 @@ brew install scala
 brew install scala@2.12
 
 ## c. set default scala version to 2.12
-export PATH="/usr/local/opt/scala@2.12/bin:$PATH"
+echo 'export PATH="/usr/local/opt/scala@2.12/bin:$PATH"' >> ~/.bash_profile
+
+#############
+# 4. Docker
+#############
+brew cask install docker
 
 ###################
-# 4. IntelliJ IDE
+# 5. IntelliJ IDE
 ###################
 brew cask install intellij-idea-ce
+
+##########
+# 6. GCP
+##########
+brew cask install google-cloud-sdk
+
+
+source ~/.bash_profile
