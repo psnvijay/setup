@@ -36,7 +36,12 @@ echo "conda activate python36" >> ~/.bash_profile
 pip install -r requirements.txt
 
 ############
-# 3. Scala
+# 3. Sbt
+############
+brew install sbt
+
+############
+# 4. Scala
 ############
 ## a. install latest version of scala
 brew install scala
@@ -48,19 +53,18 @@ brew install scala@2.12
 echo 'export PATH="/usr/local/opt/scala@2.12/bin:$PATH"' >> ~/.bash_profile
 
 #############
-# 4. Docker
+# 5. Docker
 #############
 brew cask install docker
 
 ###################
-# 5. IntelliJ IDE
+# 6. IntelliJ IDE
 ###################
 brew cask install intellij-idea-ce
 
 ##########
-# 6. GCP
+# 7. GCP
 ##########
 brew cask install google-cloud-sdk
-
 
 source ~/.bash_profile
