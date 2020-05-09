@@ -21,7 +21,7 @@ echo "export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)" >> ~/.bash_profile
 ###############
 ## a. install anaconda
 brew cask install anaconda
-echo "PATH=/usr/local/anaconda3/bin/:$PATH" >> ~/.bash_profile
+echo "export PATH=/usr/local/anaconda3/bin/:$PATH" >> ~/.bash_profile
 source ~/.bash_profile
 
 ## b. create python 3.6 environment
