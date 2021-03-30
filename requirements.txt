@@ -37,7 +37,7 @@ pyarrow==0.15.1           # via bqt
 pyasn1-modules==0.2.8     # via google-auth, oauth2client
 pyasn1==0.4.8             # via oauth2client, pyasn1-modules, rsa
 pydata-google-auth==0.2.1  # via pandas-gbq
-pygments==2.5.2           # via bqt
+pygments==2.7.4           # via bqt
 pyparsing==2.4.6          # via matplotlib
 python-dateutil==2.8.1    # via arrow, matplotlib, pandas
 pytz==2019.3              # via google-api-core, pandas
